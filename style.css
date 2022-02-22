@@ -1,3 +1,74 @@
 .header {
     background-color: #1f2937;
 }
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0   25px;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.header-links > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 25px;
+}
+
+.logo > img{
+    width: 150px;
+}
+
+.header-bottom {
+    display: flex;
+    margin: 25px;
+}
+
+.header-image{
+    margin: 25px;
+}
+
+.header-image > img{
+    width: 300px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0px;
+}
+
+.intro {
+    margin: 25px;
+}
+
+.intro > button {
+    background-color: #3882f6;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #f9faf8;
+    border: none;
+}
