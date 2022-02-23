@@ -1,5 +1,11 @@
+body {
+    margin: 0px;
+    min-width: fit-content;
+}
+
 .header {
     background-color: #1f2937;
+    min-width: fit-content;
 }
 
 .header * {
@@ -34,7 +40,8 @@
 }
 
 .header-image {
-    width: 300px;
+    width: 400px;
+    height: fit-content;
     padding: 10px;
 }
 
@@ -55,7 +62,6 @@
     min-width: 200px;
 }
 
-
 .hero button {
     background-color: #3882f6;
     padding: 5px 25px;
@@ -65,3 +71,44 @@
     border: none;
     margin-left: 25px;
 }
+
+.sign-up:hover {
+    padding: 8px 28px;
+    margin-left: 22px;
+    margin-top: -3px;
+    border-radius: 12px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    width: fit-content;
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.information {
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    width: 150px;
+    margin: 0px 15px;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+}
+
+.card-container > p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+
