@@ -60,24 +60,34 @@ body {
 .hero-sub {
     max-width: 350px;
     min-width: 200px;
+    margin-bottom: 0px;
 }
 
-.hero button {
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50%;
+    min-height: 75px;
+}
+
+.sign-up {
     background-color: #3882f6;
     padding: 5px 25px;
     font-weight: bold;
     border-radius: 10px;
     color: #f9faf8;
+    font-size: 18px;
+}
+
+.hero button {
     border: none;
-    margin-left: 25px;
 }
 
 .sign-up:hover {
-    padding: 8px 28px;
-    margin-left: 22px;
-    margin-top: -3px;
-    border-radius: 12px;
+    transform:scale(1.1,1.1)
 }
+
 
 .info-header {
     font-size: 36px;
@@ -117,7 +127,7 @@ body {
     
 }
 
-.quote > p {
+.quote p {
     color: #1f2937;
     font-size: 24px;
     font-style: italic;
@@ -131,3 +141,42 @@ body {
     font-weight: bold;
 }
 
+.call-to-action {
+    margin: 50px;
+}
+
+.call-container {
+    margin: 0px auto;
+    font-size: 18px;
+    padding: 25px 50px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    max-width: 1000px;
+    display: flex;
+}
+
+.call-to-action h3 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.call-to-action button {
+    border-color: #e5e7eb;
+    border-style: solid;
+}
+
+.call-left {
+    width: 70%;
+}
+
+.call-left * {
+    margin: 0px;
+}
+
+.call-right {
+    width: 30%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
