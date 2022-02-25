@@ -90,7 +90,7 @@ body {
 }
 
 .information {
-    margin: 0px 50px;
+    margin: 0px 50px 75px 50px;
     display: flex;
     justify-content: center;
 }
@@ -111,4 +111,23 @@ body {
     font-size: 16px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px 100px;
+    
+}
+
+.quote > p {
+    color: #1f2937;
+    font-size: 24px;
+    font-style: italic;
+    margin: 0px auto;
+    max-width: 1000px;
+}
+
+.quote-reference {
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
 
